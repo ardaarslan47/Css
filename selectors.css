@@ -1,0 +1,78 @@
+/* basic css rules */
+selector {
+    property: values;
+}
+/* for example */
+h1 {
+    color: blue;
+}
+/* or */
+input[type="text"]:nth-of-type(2n) {
+    border: 2px solid red;
+}
+/* for select everything */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* for select multiple things */
+h1,h2 {
+    text-transform: uppercase;
+}
+/* id selector */
+/* <button id="signUp"> */ 
+#signUp{
+    color: #a8dadc;
+}
+/* class selector */
+/* <button class="signUp"> */
+.signUp {
+    color: #a8dadc;
+}
+/* use id for only one element and use class for group of elements */
+/* clear all a's decoration that nested inside a li */
+li a {
+    text-decoration: none;
+}
+/* "input + label" means every label element that comes after input element in same level */
+/* direct child  */
+div > li {
+    color: white;
+}
+/* attribute selector */
+input[type="password"] {
+    color: red;
+}
+/* pseudo classes */
+/* :hover */
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: blue;
+}
+/* :active */
+a:active {
+    color: red;
+}
+/* :checked */
+input[type="radio"]:checked {
+    color: red;
+
+}
+/* :nth-of-type() */
+/* make every second label's background color black and color white */
+label:nth-of-type(2n) {
+    background-color: black;
+    color: white;
+}
+/* make every first letter of h1 and h2 make red and uppercase */
+h1::first-letter , h2::first-letter {
+    text-transform: uppercase;
+    color: red;
+}
+/* inheritance */
+body {
+    color: blueviolet; } 
+    /* all text in body will be blueviolet */
