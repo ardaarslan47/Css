@@ -1,0 +1,43 @@
+/* for link your style sheet use <link rel="stylesheet" href="css/style.css"> on head of your html file */
+
+
+/* make all h1 purple */
+h1 {
+    color: purple;
+}
+/* make all image 100px long and 200px tall */
+img {
+    width: 100px;
+    height: 200px;
+}
+/* give every second text input border that 2px solid and red */
+input[type="text"]:nth-of-type(2n) {
+    border: 2px solid red;
+}
+
+/* SELECTORS */
+
+button {
+    color: teal;
+    background-color: burlywood;
+}
+
+/* h is a block level element */
+h1 {
+    background-color: aqua;
+}
+h1 span {
+    background-color: khaki;
+}
+
+/* colors */
+/* there is few named colors */
+p {
+    color: slategrey;
+    color: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
+    color: rgba(162, 45, 197);
+    color: rgb(90, 150, 0);
+    color: #5ff;
+}
+/* use color picker for color codes */

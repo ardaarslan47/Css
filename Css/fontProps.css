@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+h1 {
+    text-align: center;
+    width: 50%;
+    letter-spacing: 15px;
+    font-family: rubik , sans-serif;
+}
+p {
+    font-weight: 700;
+    line-height: 2;
+}
+h2 {
+    text-decoration: underline #ff1d61 wavy;
+}
+a {
+    text-decoration: none;
+}
+h1,h2,h3 {
+    text-transform: uppercase;
+}
