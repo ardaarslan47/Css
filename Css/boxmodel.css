@@ -10,11 +10,11 @@ header h1 + nav {
     text-align: right;
     margin-right: 1rem;
 }
-p::first-letter {
-    padding-left: 1rem;
-}
 header nav form {
     display: inline;
+}
+p::first-letter {
+    padding-left: 1rem;
 }
 #iletişimForm {
     text-align: center;
@@ -24,4 +24,55 @@ header nav form {
     border: 0.2em solid;
     padding-right: 2rem;
     border-style: groove;
+}
+main article p {
+    width: 100%;
+    margin: 1px 5px ;
+    padding: 10px 20px;
+}
+main article p:first-of-type {
+    background-color: #E4DCCF;
+    border: 5px black solid;
+    box-sizing: border-box;
+    border-radius: 100px 100px / 12px;
+}
+main article p:nth-of-type(2) {
+    background-color: #7D9D9C;
+    border: 5px #F0EBE3 dashed;
+    box-sizing: border-box;
+    border-left-width: 8px;
+    border-radius: 100px 100px / 12px;
+}
+main article p:nth-of-type(3) {
+    background-color: #576F72;
+    border: 3px dotted black;
+    box-sizing: border-box;
+    border-radius: 100px 100px / 12px;
+
+}
+article > h1 {
+    color: #898AA6;
+    background-color: #D6EFED;
+    width:fit-content;
+    padding: 5px 10px;
+    margin-left: 40%;
+}
+article > h1 span {
+    
+}
+article p:nth-of-type(2) span {
+    display: inline-block;
+    height: 20px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0rem;
+    border-style: ridge;
+    width: fit-content;
+}
+.checker {
+    width: 200px;
+    height: 200px;
+    background-color: olivedrab;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 50px;
 }
