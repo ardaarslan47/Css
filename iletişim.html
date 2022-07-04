@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Working Sheet</title>
+    <link rel="stylesheet" href="Css/boxmodel.css">
+</head>
+
+<body>
+    <header>
+        <h1>Box Model</h1>
+        <nav>
+            <nav class="nav"><a href="boxmodel.html">Ana Sayfa</a> </nav>
+            <nav class="nav"><a href="iletişim.html">İletişim</a> </nav>
+            <form action="https://www.google.com/search" target="_blank">
+                <nav class="nav"><label for="search">Ara:</label> <input placeholder="Google'da Ara" type="search"
+                        name="q" id="search"></nav>
+            </form>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div id="iletişimFormBorder">
+            <form action="boxmodel.html" id="iletişimForm">
+                <p>
+                    <label for="isim">İsim: </label><input required type="text" name="isim" id="isim">
+                </p>
+                <p>
+                    <label for="soyisim">Soyisim: </label><input required type="text" name="soyisim" id="soyisim">
+                </p>
+                <p>
+                    <label for="mail">E-mail: </label><input required type="email" name="mail" id="mail">
+                </p>
+                <p>
+                    <label for="kullanıcıAdı">Kullanıcı Adı: </label><input type="text" name="kullanıcıAdı"
+                        id="kullanıcıAdı" required minlength="4" maxlength="12">
+                </p>
+                <p>
+                    <label for="şifre">Şifre: </label><input type="password" name="şifre" id="şifre" required
+                        minlength="4" maxlength="4">
+                </p>
+                <p>
+                    <textarea name="mesaj" id="mesaj" cols="30" rows="5"
+                        placeholder="Mesajınınızı buraya yazabilirsiniz."></textarea>
+                </p>
+                <p>
+                    <button type="submit">Gönder</button>
+                </p>
+        </div>
+        </form>
+    </main>

@@ -1,0 +1,27 @@
+header nav .nav {
+    display: inline;
+    padding-left: 2rem;
+}
+header h1 {
+    text-align: left;
+    width: 50%;
+}
+header h1 + nav {
+    text-align: right;
+    margin-right: 1rem;
+}
+p::first-letter {
+    padding-left: 1rem;
+}
+header nav form {
+    display: inline;
+}
+#iletişimForm {
+    text-align: center;
+    display: inline;
+}
+#iletişimFormBorder {
+    border: 0.2em solid;
+    padding-right: 2rem;
+    border-style: groove;
+}
