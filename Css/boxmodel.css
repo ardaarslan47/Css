@@ -56,10 +56,7 @@ article > h1 {
     width:fit-content;
     padding: 5px 10px;
     margin-left: 40%;
-}
-article > h1 span {
-    
-}
+}    
 article p:nth-of-type(2) span {
     display: inline-block;
     height: 20px;
@@ -69,10 +66,23 @@ article p:nth-of-type(2) span {
     width: fit-content;
 }
 .checker {
-    width: 200px;
-    height: 200px;
+    width: 15rem;
+    height: 15rem;
     background-color: olivedrab;
     border: 5px solid black;
     display: inline-block;
     margin: 50px;
+    border-radius: 7.5rem;
+}
+.checker:first-of-type div {
+    width: 50%;
+    height: 50%;
+    background-color: #576F72;
+    border-top-left-radius: 7em;
+}
+#buton {
+    font-size: 10px ;
+    border-radius: 0.5em;
+    border-width: 0.05em;
+    border-color: red;
 }
