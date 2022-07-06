@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    background-color: slategray;
+}
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid ;
+    padding: 10px 40px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+button:hover {
+    cursor: pointer;
+    color: aliceblue;
+    box-shadow: 0 0.2em 0.5em 0.1em rgba(234, 238, 20, 1) ;
+    border-color: rgba(234, 238, 20, 1);
+    transform: translateY(-2px);
+}
+h1 a {
+    text-decoration: none;
+    font-size: 200px;
+}
+h1 a {
+    color: red;
+    animation: colorChange 10s infinite linear;
+    animation-delay: 0s;
+}
+@keyframes colorChange {
+    from { color: darkred;}
+    10% { color: aqua;}
+    20% { color: green;}
+    30% { color: olivedrab;}
+    40% { color: yellowgreen;}
+    50% { color: yellow;}
+    60% { color: palevioletred}
+    70% { color: pink;}
+    80% { color: blueviolet;}
+    90% { color: purple;}
+    to { color: red;}
+}
