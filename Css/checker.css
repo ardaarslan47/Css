@@ -1,0 +1,70 @@
+.checker {
+    width: 15rem;
+    height: 15rem;
+    background-color: olivedrab;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 50px;
+    border-radius: 7.5rem;
+}
+.checker:first-of-type div {
+    width: 50%;
+    height: 50%;
+    background-color: #576f72a3;
+    border-top-left-radius: 7em;
+}
+#buton {
+    font-size: 30px ;
+    border-radius: 0.5em;
+    border-width: 0.1em;
+    border-color: red;
+    padding: 0.2em 0.6em;
+}
+#buton:hover {
+    background-color: #576F72;
+    color: floralwhite;
+}
+#buton:active {
+    color: red;
+}
+.checker:nth-of-type(2) {
+    border-radius: 0;
+    vertical-align: top;
+}
+.checker:nth-of-type(2) div {
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    opacity: 0.4;
+}
+.position , .absolute {
+    width: 8rem;
+    height: 8rem;
+    background-color: olivedrab;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 5px;
+}
+main > div:nth-child(2) {
+    text-align: center;
+}
+.position:nth-of-type(2) {
+    position: static;
+    top: 100px;
+}
+.position:nth-of-type(3) {
+    position: relative;
+    top: 100px ;
+    left: -100px;
+}
+.absolute:first-of-type {
+    position: absolute;
+}
+.absolute:nth-of-type(3) {
+    position: fixed;
+}
+header {
+    /* position: fixed; */
+    background-color: white;
+    width: 100%;
+}
