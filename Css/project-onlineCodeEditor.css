@@ -3,6 +3,7 @@ body {
     background-image: url(C:/Users/arzu_/Desktop/Arda/Css/img/background.jpeg);
     background-size:cover;
     font-family: source sans pro;
+    background-position: center;
 }
 header > div {
     margin: 4rem 2rem 1rem 2rem;
@@ -49,6 +50,10 @@ header div p:nth-of-type(4) {
     text-align: center;
     margin: 10px;
     vertical-align: middle;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
 }
 main {
     text-align: center;
