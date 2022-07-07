@@ -1,19 +1,27 @@
+/* body {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* height: 900vh; */
+    /* height: ; }  */
 #leftPanel {
     position: sticky;
-    top: 40%;
+    top: 37px;
     width: 80px;
-    display: inline-block;
+    /* display: inline-block; */
     list-style: none;
     padding-inline-start: 1.5em;
 }
 main {
     margin-left: 120px;
     position: relative;
-    top: -190px;
+    top: calc(-90vh - 33px);
     box-sizing: border-box;
     border: 1px solid black;
     padding: 5px 8px;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     }
 #leftPanel li {
     padding-bottom: 1.2em;
@@ -44,4 +52,10 @@ li a:hover {
 }
 li a:active {
     color: blue;
+}
+#leftPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:90vh;
 }
