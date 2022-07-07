@@ -21,12 +21,18 @@ button:hover {
 }
 h1 a {
     text-decoration: none;
-    font-size: 200px;
+    font-size: 28vw;
+    vertical-align: middle;
 }
 h1 a {
     color: red;
-    animation: colorChange 10s infinite linear;
+    animation: colorChange 8s infinite linear;
     animation-delay: 0s;
+}
+h1 {
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
 }
 @keyframes colorChange {
     from { color: darkred;}
