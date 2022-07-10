@@ -54,6 +54,7 @@ img {
     width: 100%;
     color: blue;
     font-size: large;
+    list-style: none;
 }
 
 .pricing-features li:first-of-type {
