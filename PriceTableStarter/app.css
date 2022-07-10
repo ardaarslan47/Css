@@ -1,0 +1,118 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.panelpricing-table {
+    display: flex;
+    margin: auto 5%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 150px;
+}
+
+.pricing-plan {
+    flex: 0 1 200px;
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+.pricing-plan:first-of-type {
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-right: 1px #e1f1ff solid;
+}
+
+.pricing-plan:last-of-type {
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-left: 1px #e1f1ff solid;
+}
+
+.pricing-header {
+    color: grey;
+    font-size: x-large;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1f1ff;
+    width: 100%;
+}
+
+.pricing-features {
+    width: 100%;
+    color: blue;
+    font-size: large;
+}
+
+.pricing-features li:first-of-type {
+    padding: 15px 0;
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-features li:nth-of-type(2) {
+    padding: 15px 0;
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+    color: blue;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 15px 0;
+}
+
+.pricing-price+a {
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid blue;
+    border-radius: 0.5em;
+    text-transform: uppercase;
+}
+
+.pricing-price+a:not(.pricing-button-is-featured) {
+    color: blue;
+}
+
+.pricing-button-is-featured {
+    background-color: blue;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .panelpricing-table {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .pricing-plan {
+        width: 85%;
+    }
+
+    .pricing-plan:first-of-type {
+        border: none;
+        border-bottom: 1px #e1f1ff solid;
+        border-radius: 0;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+
+    .pricing-plan:last-of-type {
+        border: none;
+        border-top: 1px #e1f1ff solid;
+        border-radius: 0;
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+    }
+}
