@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(250, 220, 52);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    background-color: aliceblue;
+    margin: 3px 0;
+    justify-content: space-between;
+    padding: 0.5em 10%;
+    align-items: center;
+    flex: 0 0;
+    column-gap: 1em;
+}
+
+header h2 b {
+    font-weight: 700;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav:first-of-type {
+    background-color: orange;
+    padding: 0.5em 1.3em;
+    border-radius: 1em;
+}
+
+header nav:first-of-type a {
+    color: aliceblue;
+}
+
+header nav:nth-of-type(3) a,
+header nav:nth-of-type(2) a {
+    color: black;
+}
+
+header input {
+    padding: 0.5em;
+    flex-grow: 1;
+}
+
+header nav:nth-last-of-type(2) {
+    border: 1px solid lightgray;
+    background-color: lightcyan;
+    padding: 0.5em 0.7em;
+}
+
+header nav:nth-last-of-type(1) {
+    border: 1px solid lightgray;
+    background-color: blue;
+    padding: 0.5em 0.7em;
+}
+
+header nav:nth-last-of-type(1) a {
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex: 1 1 75vh;
+    padding: 10px 0;
+}
+
+main h1 {
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 0.6em;
+}
+
+main p {
+    font-size: 1.3em;
+    width: 30%;
+    padding-bottom: 1.2em;
+}
+
+main nav {
+    display: inline-block;
+    border: orange solid 1px;
+    padding: 13px 20px;
+    margin: 0 2px;
+}
+
+main nav a {
+    text-decoration: none;
+}
+
+main nav:first-of-type {
+    background-color: aliceblue;
+}
+
+main nav:first-of-type a {
+    color: orange;
+}
+
+main nav:last-of-type {
+    background-color: orange;
+}
+
+main nav:last-of-type a {
+    color: aliceblue;
+}
+
+footer {
+    background-color: aliceblue;
+    flex: 0 1 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer h2 {
+    padding-bottom: 15px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+@media (max-width: 664px) {
+
+    header nav:first-of-type,
+    header nav:nth-of-type(2),
+    header nav:nth-of-type(3),
+    header nav:nth-of-type(4) {
+        display: none;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+
+    footer {
+        flex: 0 1 10vh;
+    }
+}
+
+@media (max-width: 940px) {
+    main p {
+        width: 50%;
+    }
+
+    header {
+        font-size: small;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        font-size: small;
+        padding: 0.5em 10px;
+    }
+}
