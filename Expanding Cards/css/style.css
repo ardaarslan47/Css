@@ -18,6 +18,7 @@ body > div {
     transition: 2s ease-out;
     display: block;
     background-position: bottom;
+    background-size: cover;
 }
 .img:hover {
     flex-grow: 1;
