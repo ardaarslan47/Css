@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 html {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -16,7 +17,7 @@ body {
 }
 
 img {
-    width: 150px;
+    max-width: 100%;
 }
 
 .pricing-plan {
@@ -43,9 +44,10 @@ img {
 }
 
 .pricing-header {
-    color: grey;
+    color: #888;
     font-size: x-large;
     padding-bottom: 15px;
+    letter-spacing: 0.7px;
     border-bottom: 1px solid #e1f1ff;
     width: 100%;
 }
