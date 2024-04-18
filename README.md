@@ -1,6 +1,6 @@
 # CSS Learning Repository
 
-Welcome to the CSS Learning Repository! This repository contains my html learning journey. 
+Welcome to the CSS Learning Repository! This repository contains my css learning journey. 
 
 ## Repository Structure
 
